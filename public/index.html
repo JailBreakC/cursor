@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Cursor</title>
+    <script src="/socket.io/socket.io.js"></script><!--socket.io自动托管socket.io开始的URL-->
+    <script src="js/ping.js"></script>
+    <script src="js/main.js"></script>
+    <style>
+        .cursor {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <p>ping: <span id="ping">0</span> ms</p>
+    <span class="cursor"></span>
+</body>
+</html>
